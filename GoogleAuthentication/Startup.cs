@@ -14,8 +14,9 @@ namespace GoogleAuthentication
     public class Startup
     {
         public static string ApplicationScheme = "Application";
-        public static string ClientId { get; } = "232350494901-qvqmlqods8c90o1lnntosidu5jdbkcjh.apps.googleusercontent.com";
-        public static string ClientSecret { get; } = "lwggR_axv5KKEEBctCNBsl9P";
+        // TODO: enter your Google ClientId & ClientSecret.
+        public static string ClientId { get; } = "ClientId";
+        public static string ClientSecret { get; } = "ClientSecret";
 
         public IConfiguration Configuration { get; }
 
